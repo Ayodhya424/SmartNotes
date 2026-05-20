@@ -71,13 +71,6 @@ File uploads
 
 Example: create a note
 
-```bash
-curl -X POST http://localhost:5000/api/notes \
-	-F "title=Hello" \
-	-F "content=This is a note with an image" \
-	-F "folder=General" \
-	-F "images=@/path/to/image.jpg"
-```
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/39b81466-73b2-46df-8ca1-460fe0a04963" />
 
 
